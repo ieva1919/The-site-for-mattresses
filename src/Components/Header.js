@@ -8,8 +8,8 @@ import Col from 'react-bootstrap/Col';
 function Header() {
     return (
         <Container>
-            <Row>
-                <div className="header">
+            <div className="header">
+                <Row>
                     <Col sm={4}>
                         <span className="header--icon">
                             <a href="#"><p>Naturalist</p></a>
@@ -27,8 +27,8 @@ function Header() {
                             <a href="#"><li>Are you a retailer?</li></a>
                         </ul>
                     </Col>
-                </div>
-            </Row>
+                </Row>
+            </div>
         </Container>
     )
 

@@ -1,0 +1,26 @@
+.images1 {
+
+    img {
+        z-index: 2;
+    }
+}
+
+.images2 {
+    margin-top: 140px;
+
+    img {
+        width: 700px;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .images2, .images1 {
+    
+        img {
+            width: 400px;
+            height: 100%;
+        }
+    }
+  }
