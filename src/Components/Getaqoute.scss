@@ -1,0 +1,42 @@
+.getaqoute--text {
+    margin: 80px 0;
+
+    a {
+        color: #B5AE72;
+        padding-left: 160px;
+        margin-right: 20px;
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            display: block;
+            height: 1px;
+            width: 95px;
+            background: #B5AE72;
+            transition: 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+        }
+
+        &:hover:after {
+            left: 20px;
+            width: 110px;
+
+        }
+
+        &:hover {
+            text-decoration: none;
+            color: #B5AE72;
+        }
+    }
+
+}
+
+ul {
+    list-style-type: none;
+
+    li {
+        font-size: 20px;
+    }
+}

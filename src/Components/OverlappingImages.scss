@@ -1,8 +1,5 @@
 .images1 {
 
-    img {
-        z-index: 2;
-    }
 }
 
 .images2 {
@@ -11,15 +8,27 @@
     img {
         width: 700px;
         height: 100%;
+        margin: 20px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
 
     .images2, .images1 {
     
         img {
             width: 400px;
+            height: 100%;
+        }
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+
+    .images2, .images1 {
+    
+        img {
+            width: 200px;
             height: 100%;
         }
     }
