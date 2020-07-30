@@ -13,7 +13,7 @@ function Getaqoute() {
                     </Col>
                     <Col sm={4}>
                         <ul className="getaqoute--text">
-                            <a href="#"><li>Get a Qoute</li></a>
+                            <a href="#"><li>Get a quote</li></a>
                         </ul>
                     </Col>
                     <Col sm={4}>
