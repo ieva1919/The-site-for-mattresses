@@ -8,6 +8,7 @@ import Getaqoute from './Components/Getaqoute'
 import Whyus from './Components/Whyus'
 import Newgeneration from './Components/Newgeneration'
 import Organic from './Components/Organic'
+import Perfectmattress from './Components/Perfectmattress'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Whyus />
       <Newgeneration />
       <Organic />
+      <Perfectmattress />
     </div>
   );
 }
