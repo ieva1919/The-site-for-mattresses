@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function Getaqoute() {
+function Getaqoute(props) {
     return (
         <Container>
             <div className="getaqoute">
@@ -13,7 +13,14 @@ function Getaqoute() {
                     </Col>
                     <Col sm={4}>
                         <ul className="getaqoute--text">
-                            <a href="#"><li>Get a quote</li></a>
+                            <a href="#">
+                                <li>
+                                    {props.title1}
+                                </li>
+                                <li className="getaqoute--retailer">
+                                    {props.title2}
+                                </li>
+                            </a>
                         </ul>
                     </Col>
                     <Col sm={4}>

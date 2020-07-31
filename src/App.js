@@ -7,6 +7,7 @@ import Description from './Components/Description'
 import Getaqoute from './Components/Getaqoute'
 import Whyus from './Components/Whyus'
 import Newgeneration from './Components/Newgeneration'
+import Organic from './Components/Organic'
 
 function App() {
   return (
@@ -15,9 +16,12 @@ function App() {
       <Heading />
       <OverlappingImages />
       <Description />
-      <Getaqoute />
+      <Getaqoute
+        title1="Get a qoute"
+      />
       <Whyus />
       <Newgeneration />
+      <Organic />
     </div>
   );
 }

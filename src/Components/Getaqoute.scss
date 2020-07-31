@@ -40,3 +40,25 @@ ul {
         font-size: 20px;
     }
 }
+
+.getaqoute--retailer {
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        left: -30px;
+        display: block;
+        height: 1px;
+        width: 95px;
+        background: #B5AE72;
+        transition: 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    &:hover:after {
+        left: 10px;
+        width: 160px;
+
+    }
+}
+

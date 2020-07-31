@@ -3,19 +3,17 @@ import './Whyus.scss'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import WhyusHeading from './WhyusHeading'
 
 function Whyus() {
     return (
         <Container>
             <div className="whyus">
-                <Row className="whyus--heading">
-                    <Col sm={6} className="whyus--heading whyus--heading_textleft">
-                        <p>Why us?</p>
-                    </Col>
-                    <Col sm={6} className="whyus--heading whyus--heading_textright ">
-                        <p>~~~~~~~~~~~~~</p>
-                    </Col>
-                </Row>
+                <WhyusHeading
+                    title1="Why us?"
+                    title2="What's Naturalist made of?"
+                    title3="~~~~~~~~~~~~~"
+                />
                 <Row className="whyus--borderbottom">
                     <Col sm={6} className="whyus--title why--img">
                         <img src="/img/why1.png" alt="why1" />
@@ -44,7 +42,7 @@ function Whyus() {
                     </Col>
                 </Row>
             </div>
-        </Container>
+        </Container >
     )
 }
 
