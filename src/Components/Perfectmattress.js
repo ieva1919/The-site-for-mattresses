@@ -12,8 +12,8 @@ function Perfectmattress() {
                     <Col sm={7}>
                         <h2 className="perfectmattress--heading">
                             Your perfect custom
-                            <div className="perfectmattress--tooltip">?
-                            <span className="perfectmattress--tooltip perfectmattress--tooltip_text">
+                            <div className="perfectmattress--tooltip top">?
+                                <span className="perfectmattress--tooltip perfectmattress--tooltip_text">
                                     With Naturalist, you can individually customise left and right sides of the mattress, so that two people sharing the mattress can benefit from its innovative features. You can also flip the base layer to make the mattress softer or firmer</span>
                             </div>
                             mattress
@@ -21,12 +21,12 @@ function Perfectmattress() {
                     </Col>
                     <Col sm={5}>
                         <ul className="perfectmattress--measure">
-                            <li>Single - Soft, Medium or Firm</li>
+                            <li className="perfectmattress--boder">Single - Soft, Medium or Firm</li>
                             <li><span>S</span>80 x 200 cm</li>
                             <li><span>M</span>90 x 200 cm</li>
                         </ul>
                         <ul className="perfectmattress--measure">
-                            <li>Double - Soft, Medium, Firm or Custom</li>
+                            <li className="perfectmattress--boder">Double - Soft, Medium, Firm or Custom</li>
                             <li><span>S</span>160 x 200 cm</li>
                             <li><span>M</span>180 x 200 cm</li>
                         </ul>

@@ -2,10 +2,7 @@
     background-color: #A9A9A9;
     color: white;
     text-align: left;
-
-    &--heading {
-
-    }
+    padding-top: 50px;
 
     &--tooltip {
         position: relative;
@@ -16,7 +13,6 @@
         border-radius: 50%;
         border: 1px solid #fff;
         font-size: 13px;
-        left: -10px;
 
         &_text {
             visibility: hidden;
@@ -46,6 +42,28 @@
             border-width: 20px 20px 0 20px;
             border-color: white transparent transparent transparent;
         }
+
+    }
+
+    &--measure {
+        margin-bottom: 20px;
+    }
+
+    &--boder {
+        padding: 8px 0;
+        margin-bottom: 20px;
+        border-bottom: 1px solid white;
+        margin-right: 35%;
+
+            li {
+                padding: 8px;
+
+                span {
+                    display: inline-block;
+                    min-width: 70px;
+                }
+            }
+
     }
 
     &--tooltip:hover &--tooltip_text {
@@ -55,6 +73,8 @@
     h2 {
         font-size: 48px;
     }
+}
 
-
+.top {
+    top: -26px;
 }
