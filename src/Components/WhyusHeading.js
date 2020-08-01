@@ -7,10 +7,10 @@ function WhyusHeading(props) {
     return (
         <Row className="whyus--heading">
             <Col sm={6} className="whyus--heading whyus--heading_textleft">
-                <p>{props.title1}</p>
+                <p>{props.title}</p>
             </Col>
             <Col sm={6} className="whyus--heading whyus--heading_textright ">
-                <p>{props.title3}</p>
+                <p>~~~~~~~~~~~~~</p>
             </Col>
         </Row>
     )

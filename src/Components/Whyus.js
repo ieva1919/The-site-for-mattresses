@@ -10,9 +10,7 @@ function Whyus() {
         <Container>
             <div className="whyus">
                 <WhyusHeading
-                    title1="Why us?"
-                    title2="What's Naturalist made of?"
-                    title3="~~~~~~~~~~~~~"
+                    title="Why us?"
                 />
                 <Row className="whyus--borderbottom">
                     <Col sm={6} className="whyus--title why--img">

@@ -11,13 +11,11 @@
         position: relative;
         display: inline-block;
         width: 23px;
-        height: 23px;
         line-height: 23px;
         text-align: center;
         border-radius: 50%;
         border: 1px solid #fff;
         font-size: 13px;
-        top: -26px;
         left: -10px;
 
         &_text {
@@ -35,18 +33,20 @@
             z-index: 1;
             left: 50%;
         }
-    }
 
-    // .tooltip-content:before {
-    //     content: '';
-    //     position: absolute;
-    //     top: 100%;
-    //     left: 50%;
-    //     transform: translateX(-50%);
-    //     border-top: 10px solid #fff;
-    //     border-left: 12px solid transparent;
-    //     border-right: 12px solid transparent;
-    // }
+        &_text:after {
+            content: "";
+            display: block;    
+            position: absolute;
+            bottom: -20px;
+            left: calc(50% - 20px);
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 20px 20px 0 20px;
+            border-color: white transparent transparent transparent;
+        }
+    }
 
     &--tooltip:hover &--tooltip_text {
         visibility: visible;
