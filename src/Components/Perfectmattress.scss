@@ -52,19 +52,28 @@
     &--boder {
         padding: 8px 0;
         margin-bottom: 20px;
-        border-bottom: 1px solid white;
-        margin-right: 35%;
+
+        span {
+            display: inline-block;
+            border-bottom: 1px solid white;
+            padding-bottom: 15px;
+        }
 
             li {
                 padding: 8px;
+            }
 
-                span {
-                    display: inline-block;
-                    min-width: 70px;
-                }
+            span {
+                display: inline-block;
+                min-width: 70px;
             }
 
     }
+
+                    span {
+                    display: inline-block;
+                    min-width: 70px;
+                }
 
     &--tooltip:hover &--tooltip_text {
         visibility: visible;
@@ -72,6 +81,17 @@
 
     h2 {
         font-size: 48px;
+    }
+
+    &--img {
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+        }
     }
 }
 
