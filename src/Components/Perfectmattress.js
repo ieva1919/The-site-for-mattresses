@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import OverlappingImages from './OverlappingImages'
+import TextCarousel from './TextCarousel'
 
 function Perfectmattress() {
     return (
@@ -52,11 +53,13 @@ function Perfectmattress() {
                     <div className="images2">
                         <video width="700" height="auto" autoplay>
                             <source src="/img/video.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
                         </video>
                         <p>You can customise the firmness of the mattress by flipping the base side</p>
                     </div>
                 </Col>
             </OverlappingImages>
+            <TextCarousel />
         </div>
     )
 }
