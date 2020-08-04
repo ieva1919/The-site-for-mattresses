@@ -1,32 +1,6 @@
-.newgeneration {
-    background-color: #F8F7F1;
-    height: auto;
-
-    &--heading {
-        color: #A3A46D;
-
-        h1 {
-            font-size: 5rem;
-            margin: 80px 0;
-        }
-
-        &_white {
-            color: #B5B26F;
-            -webkit-text-fill-color: #f8f7f1;
-            -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: #B5B26F;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            display: inline-block;
-            vertical-align: middle;
-        }
-    }
-
-    &--text {
-        text-align: center;
-        margin-top: 80px;
-    }
+.newgeneration--heading_white {
+    color: #B5B26F;
+    -webkit-text-fill-color: #f8f7f1;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #B5B26F;
 }

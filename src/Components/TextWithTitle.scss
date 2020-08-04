@@ -1,0 +1,25 @@
+.newgeneration {
+    background-color: #F8F7F1;
+    height: auto;
+
+    &--heading {
+        color: #A3A46D;
+
+        h1 {
+            font-size: 5rem;
+            margin: 80px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    &--text {
+        text-align: center;
+        margin-top: 80px;
+    }
+}

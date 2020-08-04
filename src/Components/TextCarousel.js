@@ -7,13 +7,13 @@ function TextCarousel() {
     return (
         <Row>
             <Col sm={12}>
-                <div className="TextCarousel">
-                    <span>Natural</span> <span className="dot"></span>
-                    <span>Simple</span>
-                    <span>Portable</span>
-                    <span>Customisable</span>
-                    <span>Natural</span>
-                </div>
+                <ul className="textCarousel">
+                    <li>Natural</li>
+                    <li>Simple</li>
+                    <li>Portable</li>
+                    <li>Customisable</li>
+                    <li>Natural</li>
+                </ul>
             </Col>
         </Row>
     )
