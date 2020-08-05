@@ -10,6 +10,7 @@ import CompiledFromTextAndImage from './Components/CompiledFromTextAndImage'
 import CompiledFromTextAndImage2 from './Components/CompiledFromTextAndImage2'
 import Organic from './Components/Organic'
 import Perfectmattress from './Components/Perfectmattress'
+import Footer from './Components/Footer'
 import Col from 'react-bootstrap/Col';
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
       <Organic />
       <Perfectmattress />
       <CompiledFromTextAndImage2 />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,23 @@
+.footer {
+    background-color: #B5B26F;
+    width: 100%;
+    height: auto;
+
+        &--img {
+            padding: 100px 0;
+            border-bottom: 1px solid #ffff;
+
+        }
+
+        &--list {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            color: #ffff;
+            
+                li:first-child {
+                    border-right: 1px solid #ffff;
+                    padding-right:20px;
+                }
+        }
+}
