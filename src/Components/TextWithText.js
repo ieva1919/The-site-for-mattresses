@@ -1,16 +1,16 @@
 import React from 'react'
-import './TextWithTitle.scss'
+import './TextWithText.scss'
 import Col from 'react-bootstrap/Col';
 
-function TextWithTitle(props) {
+function TextWithText(props) {
     return (
         <div className="textWithTitle">
             <Col sm={12}>
-                <div className="textWithTitle--heading">
-                    {props.children}
+                <div className="textWithTitle--text">
+                    <p> {props.title} </p>
                 </div>
             </Col>
         </div>
     )
 }
-export default TextWithTitle;
+export default TextWithText;

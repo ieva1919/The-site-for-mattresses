@@ -6,7 +6,8 @@ import OverlappingImages from './Components/OverlappingImages'
 import Description from './Components/Description'
 import Getaqoute from './Components/Getaqoute'
 import Whyus from './Components/Whyus'
-import Newgeneration from './Components/Newgeneration'
+import CompiledFromTextAndImage from './Components/CompiledFromTextAndImage'
+import CompiledFromTextAndImage2 from './Components/CompiledFromTextAndImage2'
 import Organic from './Components/Organic'
 import Perfectmattress from './Components/Perfectmattress'
 import Col from 'react-bootstrap/Col';
@@ -33,9 +34,10 @@ function App() {
         title1="Get a qoute"
       />
       <Whyus />
-      <Newgeneration />
+      <CompiledFromTextAndImage />
       <Organic />
       <Perfectmattress />
+      <CompiledFromTextAndImage2 />
     </div>
   );
 }

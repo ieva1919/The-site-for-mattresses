@@ -1,6 +1,4 @@
-.newgeneration {
-    background-color: #F8F7F1;
-    height: auto;
+.textWithTitle {
 
     &--heading {
         color: #A3A46D;
@@ -10,16 +8,12 @@
             margin: 80px 0;
         }
 
-        img {
-            max-width: 100%;
-            height: auto;
-            display: inline-block;
-            vertical-align: middle;
-        }
+            &_white {
+                color: #B5B26F;
+                -webkit-text-fill-color: white;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: #B5B26F;
+            }
     }
 
-    &--text {
-        text-align: center;
-        margin-top: 80px;
-    }
 }

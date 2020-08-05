@@ -1,8 +1,8 @@
 import React from 'react'
-import './TextWithTitle.scss'
+import './ImageInTheText.scss'
 import Col from 'react-bootstrap/Col';
 
-function TextWithTitle(props) {
+function ImageInTheText(props) {
     return (
         <div className="textWithTitle">
             <Col sm={12}>
@@ -13,4 +13,4 @@ function TextWithTitle(props) {
         </div>
     )
 }
-export default TextWithTitle;
+export default ImageInTheText;
