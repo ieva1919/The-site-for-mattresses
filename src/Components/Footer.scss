@@ -5,8 +5,11 @@
 
         &--img {
             padding: 100px 0;
-            border-bottom: 1px solid #ffff;
 
+        }
+
+        &--border {
+            border-bottom: 1px solid #ffff;
         }
 
         &--list {
@@ -14,10 +17,18 @@
             justify-content: space-between;
             list-style-type: none;
             color: #ffff;
+            margin-left: 8px;
             
                 li:first-child {
                     border-right: 1px solid #ffff;
                     padding-right:20px;
                 }
+
+                li:last-child {
+                    margin-left: 0px;
+                }
         }
+    ul {
+        padding-inline-start: 0;
+    }
 }

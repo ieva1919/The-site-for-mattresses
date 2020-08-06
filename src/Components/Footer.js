@@ -19,17 +19,16 @@ function Footer() {
                         <img src="/img/logo-oeko.svg" alt="Boxes" />
                     </Col>
                 </Row>
-                <Row className="footer--img">
-                    <Col sm={12}>
-                        <ul className="footer--list">
-                            <li>Contact us </li>
-                            <li>emailemail@email.com</li>
-                            <li>Impressum</li>
-                            <li>Privacy Policy</li>
-                            <li>©2019 Naturalist</li>
-                        </ul>
-                    </Col>
-                </Row>
+                <div className="footer--border"></div>
+                <div className="footer--img">
+                    <ul className="footer--list">
+                        <li>Contact us </li>
+                        <li>emailemail@email.com</li>
+                        <li>Impressum</li>
+                        <li>Privacy Policy</li>
+                        <li>©2019 Naturalist</li>
+                    </ul>
+                </div>
             </Container>
         </div>
     )

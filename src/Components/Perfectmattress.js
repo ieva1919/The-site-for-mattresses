@@ -51,7 +51,7 @@ function Perfectmattress() {
                 </Col>
                 <Col sm={6}>
                     <div className="images2">
-                        <video width="700" height="auto" autoplay>
+                        <video width="100%" height="auto" autoplay>
                             <source src="/img/video.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>

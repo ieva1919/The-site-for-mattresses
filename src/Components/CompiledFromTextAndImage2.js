@@ -16,7 +16,7 @@ function CompiledFromTextAndImage2() {
             <Container>
                 <div className="newgeneration2">
                     <TextWithTitle>
-                        <h1>100% natural latex <br />pillow for your <span className="textWithTitle--heading_white"> <br />comfort and support </span></h1 >
+                        <h1>Sure there isn't anything <br />embarrassing for your <span className="textWithTitle--heading_white"> <br />comfort and support </span></h1 >
                     </TextWithTitle>
                     <ImageInTheText className="newgeneration2--img">
                         <OverlappingImages>
