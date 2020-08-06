@@ -36,22 +36,22 @@ function Perfectmattress() {
                 </Row>
                 <Row>
                     <Col sm={12}>
-                        <div clssName="perfectmattress--img">
+                        <div className="perfectmattress--img">
                             <img src="/img/Naturalist.png" alt="Naturalist" />
                         </div>
                     </Col>
                 </Row>
             </Container>
             <OverlappingImages>
-                <Col sm={6}>
+                <Col sm={12} lg={6}>
                     <div className="images1">
                         <img src="/img/Naturalistfinaltop.png" alt="naturalistfinaltop" />
                         <p>The latex used in our products ensures easy airflow and durability</p>
                     </div>
                 </Col>
-                <Col sm={6}>
+                <Col sm={12} lg={6}>
                     <div className="images2">
-                        <video width="100%" height="auto" autoplay>
+                        <video width="100%" height="auto" autoplay="true" muted="true" loop="true">
                             <source src="/img/video.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
