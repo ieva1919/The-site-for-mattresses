@@ -1,27 +1,31 @@
 .textCarousel {
-    display: flex;
-    flex-wrap: wrap;
+    white-space: nowrap;
 
-        li {
-            font-size: 70px;
-            color: #fff;
+    &--container {
+        overflow: hidden;
+    }
 
-            li:last-child {
-                margin-right: 0;
-              }
-        }
+    li {
+        font-size: 70px;
+        color: #fff;
+        display: inline;
 
-        li:after {
-            content: '';
-            display: inline-block;
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            border: 1px solid #fff;
-            margin: 0 50px 0 40px;
-            position: relative;
-            top: -20px;
-        }
+        li:last-child {
+            margin-right: 0;
+            }
+    }
+
+    li:after {
+        content: '';
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        margin: 0 50px 0 40px;
+        position: relative;
+        top: -20px;
+    }
 
 }
 

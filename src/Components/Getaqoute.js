@@ -13,7 +13,7 @@ function Getaqoute(props) {
                     </Col>
                     <Col sm={4}>
                         <ul className="getaqoute--text">
-                            <a href="#">
+                            <a href="/">
                                 <li>
                                     {props.title1}
                                 </li>

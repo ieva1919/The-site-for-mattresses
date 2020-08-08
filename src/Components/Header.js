@@ -12,19 +12,19 @@ function Header() {
                 <Row>
                     <Col sm={4}>
                         <span className="header--icon">
-                            <a href="#"><p>Naturalist</p></a>
+                            <a href="/"><p>Naturalist</p></a>
                         </span>
                     </Col>
                     <Col sm={4}>
                         <ul className="header--languages">
-                            <a href="#"><li>En</li></a>
-                            <a href="#"><li>De</li></a>
+                            <a href="/"><li>En</li></a>
+                            <a href="/"><li>De</li></a>
                         </ul>
                     </Col>
                     <Col sm={4}>
                         <ul className="header--retailer">
-                            <a href="#"><li>Pillow</li></a>
-                            <a href="#"><li>Are you a retailer?</li></a>
+                            <a href="/"><li>Pillow</li></a>
+                            <a href="/"><li>Are you a retailer?</li></a>
                         </ul>
                     </Col>
                 </Row>
