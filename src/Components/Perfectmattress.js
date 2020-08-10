@@ -3,7 +3,7 @@ import './Perfectmattress.scss'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import OverlappingImages from './OverlappingImages'
+import OverlappingImagesSecond from './OverlappingImagesSecond'
 import TextCarousel from './TextCarousel'
 
 function Perfectmattress() {
@@ -42,7 +42,7 @@ function Perfectmattress() {
                     </Col>
                 </Row>
             </Container>
-            <OverlappingImages>
+            <OverlappingImagesSecond>
                 <Col sm={12} lg={6}>
                     <div className="images1">
                         <img src="/img/Naturalistfinaltop.png" alt="naturalistfinaltop" />
@@ -58,7 +58,7 @@ function Perfectmattress() {
                         <p>You can customise the firmness of the mattress by flipping the base side</p>
                     </div>
                 </Col>
-            </OverlappingImages>
+            </OverlappingImagesSecond>
             <TextCarousel />
         </div>
     )

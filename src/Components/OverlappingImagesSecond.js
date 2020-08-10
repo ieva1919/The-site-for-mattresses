@@ -1,11 +1,12 @@
 import React from 'react'
-import './OverlappingImages.scss'
+import './OverlappingImagesSecond.scss'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-function OverlappingImages(props) {
-    return (
+function OverlappingImagesSecond(props) {
 
+
+    return (
         <Container>
             <Row>
                 {props.children}
@@ -14,6 +15,6 @@ function OverlappingImages(props) {
     )
 }
 
-export default OverlappingImages;
+export default OverlappingImagesSecond;
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './Components/Header'
 import Heading from './Components/Heading'
-import OverlappingImages from './Components/OverlappingImages'
+import OverlappingImagesFirst from './Components/OverlappingImagesFirst'
 import Description from './Components/Description'
 import Getaqoute from './Components/Getaqoute'
 import Whyus from './Components/Whyus'
@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Header />
       <Heading />
-      <OverlappingImages>
+      <OverlappingImagesFirst>
         <Col sm={6}>
           <div className="images1">
             <img src="/img/intro1.png" alt="intro1" />
@@ -29,7 +29,7 @@ function App() {
             <img src="/img/intro2.png" alt="intro1" />
           </div>
         </Col>
-      </OverlappingImages>
+      </OverlappingImagesFirst>
       <Description />
       <Getaqoute
         title1="Get a qoute"

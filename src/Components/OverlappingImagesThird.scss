@@ -1,0 +1,45 @@
+.images2 {
+    margin-top: 140px;
+
+    img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+        margin-left: -180px;
+    }
+}
+
+.background {
+    
+    background-color: #B5B26F;
+}
+
+@media screen and (max-width: 700px) {
+
+    .images2, .images1 {
+    
+        img {
+            width: 400px;
+            height: 100%;
+        }
+    }
+  }
+
+@media screen and (max-width: 400px) {
+
+    .images2, .images1 {
+
+        img {
+            width: 200px;
+            height: 100%;
+        }
+    }
+}
+
+.images2, .images1 {
+
+    p {
+        padding-top: 30px;
+        font-size: 20px;
+    }
+}
