@@ -8,21 +8,19 @@ function OverlappingImagesFirst(props) {
     const [elementVisible, setElementVisible] = useState(false)
     const element = useRef()
 
-    console.log(elementVisible)
 
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
             if (element.current) {
                 const rect = element.current.getBoundingClientRect()
-                console.log(rect)
-                setElementVisible(rect.y < 155)
+                setElementVisible(rect.y < 115)
             }
         })
     }, [])
 
     return (
-        <div className={elementVisible && 'background'} ref={element} >
+        <div className={'overlappingImagesFirst ' + (elementVisible && 'background')} ref={element}>
             <Container>
                 <div>
                     <h4 className="heading--h4">Synchronized with your body, harmonized with the Earth.</h4>

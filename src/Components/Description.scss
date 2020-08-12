@@ -1,5 +1,6 @@
 .text {
     background-color: #B5B26F;
+    transition: background-color 1s;
 }
 
 
@@ -21,5 +22,8 @@
         font-size: 20px;
         text-align: left;
     }
+}
 
+.backgroundWhite {
+    background-color: #fff;
 }

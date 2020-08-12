@@ -1,5 +1,10 @@
 .organic {
     margin-top: 80px;
     text-align: left;
+    transition: background-color 1s;
+
+    &.backgroundGrey {
+        background-color: #A9A9A9;
+    }
 
 } 
